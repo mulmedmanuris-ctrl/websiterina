@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA NURIS Bisnis Digital</title>
+    <!-- Hubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Bisnis<span>Digital</span></div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Halaman Home -->
+     <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1>Digital Business</h1> 
+          <p>
+            Temukan strategi dan teknologi digital paling tepat buat kembangkan bisnismu. <br> Build a strong online presence and achieve sustainable success. </p>
+        </div>
+        <a href="#services">Our Services</a>
+      </div>
+    </section>
+
+    <!-- Halaman Service -->
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <p>Layanan desain kreatif dan profesional untuk meningkatkan nilai jual bisnis Anda.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="DesainBox.jpg" alt="img">
+          <h3>Desain Box & Kemasan</h3>
+          <p>Kemasan premium bikin produk mahal</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>  
+        </li>
+
+        <li class="card">
+          <img src="DesainCoklat.jpg" alt="img">
+          <h3>Desain Chocolate</h3>
+          <p>Visual manis penggoda selera pembeli.</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>
+        </li>
+        
+        <li class="card">
+          <img src="DesainPaper.jpg" alt="img">
+          <h3>Desain Paper</h3>
+          <p>Tata letak rapi informasi jelas.</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>
+        </li>
+
+        <li class="card">
+          <img src="DesainPoster.jpg" alt="img">
+          <h3>Desain Poster</h3>
+          <p>Promosi kreatif langsung memikat mata.</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>
+        </li>
+        <li class="card">
+          <img src="DesignIceCream.jpg" alt="img">
+          <h3>Desain Ice Cream</h3>
+          <p>Tampilan segar, ceria, kekinian banget.</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>
+        </li>
+        <li class="card">
+          <img src="DesainKaos.jpg" alt="img">
+          <h3>Desain T-Shirt</h3>
+          <p>Gaya unik, keren siap pakai.</p>
+          <!-- Tombol WhatsApp -->
+          <a href="https://wa.me/6224373335" target="_blank" class="btn-wa">
+             Pesan via WA
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Halaman About -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Mitra Kreatif untuk Transformasi Digital Anda</h3>
+                <p>Kami adalah sekelompok santri MA yang memiliki minat dan passion di bidang desain digital. Awalnya, kegiatan ini dimulai dari tugas sekolah, namun berkembang menjadi sebuah usaha kecil berbasis kreativitas.</p>
+                <p>Kami menggabungkan analisis data pasar dengan keahlian artistik untuk menciptakan produk digital seperti mug, piring, dan media lainnya yang tidak hanya indah dilihat, tetapi juga fungsional dan memiliki nilai estetika tinggi.</p>
+            </div>  
+            <div class="about-ui-box">
+                <div class="ui-mockup">
+                    <div class="ui-line short"></div>
+                    <div class="ui-line long"></div>
+                    <div class="ui-line long"></div>
+                    <div class="ui-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Halaman Contact -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Pesan berhasil dikirim! (Ini hanya simulasi)');">
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" class="form-control" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="nama@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan Anda</label>
+                    <textarea id="message" class="form-control" placeholder="Ceritakan kebutuhan desain bisnis Anda..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
